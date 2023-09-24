@@ -3,6 +3,7 @@ import windows11 from "../assets/windows11.jpeg";
 import error from "../assets/error.png";
 import errorSound from "../assets/erro.mp3";
 import { useState } from "react";
+import { Link, Outlet } from "react-router-dom";
 
 const Start = () => {
   const [error, setError] = useState(true);
@@ -29,7 +30,10 @@ const Start = () => {
       ) : (
         <ErrorDiv>
           <h2>შეცდომა გეგონა ?</h2>
-          <button onClick={() => console.log("sad")}>კი</button>
+          <Link to="/quiz/1">
+            <button>კი</button>
+          </Link>
+          <Outlet />
         </ErrorDiv>
       )}
     </div>
