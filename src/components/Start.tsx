@@ -44,6 +44,7 @@ export default Start;
 
 const Div = styled.div`
   h1 {
+    text-align: center;
     color: #242323;
     font-size: 4rem;
     margin-bottom: 5rem;
