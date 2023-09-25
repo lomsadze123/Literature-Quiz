@@ -30,7 +30,7 @@ const Start = () => {
       ) : (
         <ErrorDiv>
           <h2>შეცდომა გეგონა ?</h2>
-          <Link to="/quiz/1">
+          <Link to="/quiz/0">
             <button>კი</button>
           </Link>
           <Outlet />
@@ -43,7 +43,6 @@ const Start = () => {
 export default Start;
 
 const Div = styled.div`
-  text-align: center;
   h1 {
     color: #242323;
     font-size: 4rem;

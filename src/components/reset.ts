@@ -23,6 +23,9 @@ const GlobalStyle = createGlobalStyle`
       background: #f8f8f8 url(${windows}) no-repeat;
     }
   }
+  a {
+    text-decoration: none;
+  }
 
 `;
 
