@@ -22,8 +22,6 @@ const FirstQuestion = ({ answer, setAnswer, children, questionId }: Types) => {
     }
 
     if (e.target instanceof HTMLLIElement) {
-      const clicked = e.target.textContent;
-      console.log(clicked);
       setAnswer(true);
     }
 

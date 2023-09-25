@@ -8,7 +8,7 @@ const Questions = () => {
 
   const nextQuestion = () => {
     setAnswer(false);
-    if (questionId < 1) {
+    if (questionId < 9) {
       setQuestionId(questionId + 1);
     }
   };
