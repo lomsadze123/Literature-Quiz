@@ -36,10 +36,10 @@ const Div = styled.div`
     background-color: #e9e6e6;
     h2 {
       text-align: center;
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
     ul {
-      padding: 4rem 0 0 2rem;
+      padding: 4rem 0 0 0;
     }
     img {
       display: block;
@@ -61,6 +61,12 @@ const Div = styled.div`
     }
 
     @media (min-width: 1100px) {
+      ul {
+        padding: 4rem 0 0 2rem;
+      }
+      h2 {
+        font-size: 3rem;
+      }
       button {
         cursor: pointer;
       }
