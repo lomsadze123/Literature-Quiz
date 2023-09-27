@@ -30,7 +30,7 @@ const Start = () => {
       ) : (
         <ErrorDiv>
           <h2>შეცდომა გეგონა ?</h2>
-          <Link to="/quiz/0">
+          <Link to="/quiz">
             <button>კი</button>
           </Link>
           <Outlet />

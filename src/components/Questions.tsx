@@ -1,6 +1,5 @@
 import { useState } from "react";
 import FirstQuestion from "./FirstQuestion";
-import { Link } from "react-router-dom";
 
 const Questions = () => {
   const [answer, setAnswer] = useState(false);
@@ -8,7 +7,7 @@ const Questions = () => {
 
   const nextQuestion = () => {
     setAnswer(false);
-    if (questionId < 9) {
+    if (questionId < 10) {
       setQuestionId(questionId + 1);
     }
   };
@@ -21,9 +20,9 @@ const Questions = () => {
         questionId={questionId}
       >
         {answer ? (
-          <Link to={`/quiz/${questionId + 1}`}>
-            <button onClick={nextQuestion}>შემდეგი</button>
-          </Link>
+          <button onClick={nextQuestion}>
+            {questionId === 9 ? "დასასრული" : "შემდეგი"}
+          </button>
         ) : null}
       </FirstQuestion>
     </>

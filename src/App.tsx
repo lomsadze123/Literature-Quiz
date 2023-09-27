@@ -13,7 +13,7 @@ function App() {
     createRoutesFromElements(
       <Route>
         <Route path="/" element={<Start />} />
-        <Route path="/quiz/:id" element={<Questions />} />
+        <Route path="/quiz" element={<Questions />} />
       </Route>
     )
   );
@@ -75,7 +75,7 @@ const Div = styled.div`
 export const Li = styled.li<{ errorColor: boolean; color: boolean }>`
   list-style: none;
   font-size: 2.2rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
   background-color: #ccc8c8;
   border-radius: 0.5rem;
   padding: 0.5rem 0 0.5rem 0.5rem;

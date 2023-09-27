@@ -18,6 +18,7 @@ import salvador from "../assets/salvador.jpg";
 import sartre from "../assets/sartre.jpg";
 import shopenhauer from "../assets/shopenhauer.jpg";
 import terenti from "../assets/terenti.jpg";
+import wolter from "../assets/wolter.jpg";
 
 const ImagesDaTa = [
   chiladze,
@@ -40,6 +41,7 @@ const ImagesDaTa = [
   nietzsche,
   salvador,
   terenti,
+  wolter,
 ];
 
 export default ImagesDaTa;
