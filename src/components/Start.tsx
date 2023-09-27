@@ -80,9 +80,9 @@ const Div = styled.div`
 
 const ErrorDiv = styled.div`
   background: url(${error}) no-repeat;
-  padding: 11.8rem 3rem 3.5rem 8rem;
+  padding: 11.8rem 3.9rem 3.5rem 8rem;
   h2 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
   button {
     font-size: 2.8rem;
@@ -96,6 +96,9 @@ const ErrorDiv = styled.div`
   @media (min-width: 1100px) {
     button {
       cursor: pointer;
+    }
+    h2 {
+      font-size: 2.4rem;
     }
   }
 `;
