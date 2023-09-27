@@ -80,9 +80,9 @@ const Div = styled.div`
 
 const ErrorDiv = styled.div`
   background: url(${error}) no-repeat;
-  padding: 11.8rem 3.9rem 3.5rem 8rem;
+  padding: 11.8rem 4.7rem 3.5rem 8rem;
   h2 {
-    font-size: 2.2rem;
+    font-size: 2.1rem;
   }
   button {
     font-size: 2.8rem;
