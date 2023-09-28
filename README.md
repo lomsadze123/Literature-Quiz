@@ -7,7 +7,7 @@ Welcome to the Literature Quiz, a fun and educational quiz game to test your kno
 ```bash
 git clone https://github.com/lomsadze123/Literature-Quiz.git
 ```
-2. Install Dependencies: Install the project dependencies using npm or yarn:
+2. Install Dependencies: Install the project dependencies using npm:
 ```bash
 npm install
 ```
